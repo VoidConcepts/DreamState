@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(meta = (GUID = "E6113EF7-4357AE15-C3790EA8-29554136", FileName = "WorldManagerModuleBlueprintFunctionLibrary.h", FilePath = "D:/DreamState/Source\WorldManagerModule\Public"))
+UCLASS()
 class EDITORSYSTEMSMODULE_API UProjectAssetEnforcer : public UEditorUtilityObject
 {
 	GENERATED_BODY()

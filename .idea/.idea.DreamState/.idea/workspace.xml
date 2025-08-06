@@ -12,17 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ec07d-ecb9-49d6-8b89-2cfc4fa19586" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Source/EditorSystemsModule/MyProjectAssetEnforcer.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Private/ProjectAssetEnforcer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Public/ProjectAssetEnforcer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/EditorSystemsModule/Public/EditorSystemsModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Public/EditorSystemsModule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/WorldManagerModule/Public/WorldManagerModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/WorldManagerModule/Public/WorldManagerModuleBlueprintFunctionLibrary.h" afterDir="false" />
-    </list>
+    <list default="true" id="331ec07d-ecb9-49d6-8b89-2cfc4fa19586" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +22,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UnrealEngine" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,6 +46,7 @@
     <setting file="mock://D:/DreamState/Source/AnimationModule/Public/AnimationModule.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/DreamState/Source/DreamState/Variant_Combat/AnimNotify_CheckCombo.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/DreamState/Source/DreamState/Variant_Platforming/PlatformingPlayerController.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/DreamState/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -113,7 +104,7 @@
     "C/C++ Project.DreamState.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "release",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -2423,7 +2414,7 @@
       <workItem from="1753999423366" duration="15238000" />
       <workItem from="1754075478717" duration="8468000" />
       <workItem from="1754207491856" duration="33188000" />
-      <workItem from="1754315898015" duration="31016000" />
+      <workItem from="1754315898015" duration="31698000" />
     </task>
     <task id="LOCAL-00001" summary="Establishing base build and project structure. Added foundational modules for core areas of game development.">
       <option name="closed" value="true" />
@@ -2481,7 +2472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754096830187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Checkpoint before adding the UUID's to all 86 classes programattically.">
+      <option name="closed" value="true" />
+      <created>1754485955565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754485955565</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2502,7 +2501,8 @@
     <MESSAGE value="Established Base Game Framework." />
     <MESSAGE value="Game Framework Architecture compiles! No Crashes." />
     <MESSAGE value="Setting up base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up base" />
+    <MESSAGE value="Checkpoint before adding the UUID's to all 86 classes programattically." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkpoint before adding the UUID's to all 86 classes programattically." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
