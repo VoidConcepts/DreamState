@@ -2,25 +2,31 @@
 
 public class EditorSystemsModule : ModuleRules
 {
-    public EditorSystemsModule(ReadOnlyTargetRules Target) : base(Target)
-    {
-        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+	public EditorSystemsModule(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(
-            new string[]
-            {
-                "Core",
-            }
-        );
+		PublicDependencyModuleNames.AddRange(
+			new[]
+			{
+				"Core"
+			}
+		);
 
-        PrivateDependencyModuleNames.AddRange(
-            new string[]
-            {
-                "CoreUObject",
-                "Engine",
-                "Slate",
-                "SlateCore"
-            }
-        );
-    }
+		PrivateDependencyModuleNames.AddRange(
+			new[]
+			{
+				"CoreUObject",
+				"Engine",
+				"Slate",
+				"ToolMenus",
+				"ToolMenusEditor",
+				"SlateCore",
+				"UnrealEd",
+				"Projects",
+				"EditorStyle",
+				"Blutility"
+			}
+		);
+	}
 }
