@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(meta = (GUID = "F571EBC0-46FAAC3B-08267DA4-D12D5B98", FileName = "Boon.h", AbsoluePath = "D:/DreamState/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/Boon.h" ))
 class GAMEPLAYABILITYSYSTEMMODULE_API UBoon : public UGameplayEffect
 {
 	GENERATED_BODY()

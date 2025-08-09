@@ -7,7 +7,7 @@
 #include "Components/BoxComponent.h"
 #include "CombatCheckpointVolume.generated.h"
 
-UCLASS(abstract)
+UCLASS(meta = (GUID = "5556EF61-4B2A2631-FF6C4B87-345EB2B9", FileName = "CombatCheckpointVolume.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatCheckpointVolume.h" ))
 class ACombatCheckpointVolume : public AActor
 {
 	GENERATED_BODY()

@@ -11,7 +11,7 @@ class UBoxComponent;
 /**
  *  A simple jump pad that launches characters into the air
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "135AE459-453DF097-0B31AF9C-E75D6BF1", FileName = "SideScrollingJumpPad.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h" ))
 class ASideScrollingJumpPad : public AActor
 {
 	GENERATED_BODY()

@@ -22,7 +22,7 @@ class UAnimMontage;
  *  - Wall Jump
  *  - Dash
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "4055426B-4641B8A8-77AD40B6-65979A67", FileName = "PlatformingCharacter.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Platforming/PlatformingCharacter.h" ))
 class APlatformingCharacter : public ACharacter
 {
 	GENERATED_BODY()

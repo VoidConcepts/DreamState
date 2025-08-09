@@ -10,7 +10,7 @@
  *  UEnvQueryContext_Player
  *  Basic EnvQuery Context that returns the first local player
  */
-UCLASS()
+UCLASS(meta = (GUID = "B94D570A-4D8C6201-713ED084-98F9B086", FileName = "EnvQueryContext_Player.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AI/EnvQueryContext_Player.h" ))
 class UEnvQueryContext_Player : public UEnvQueryContext
 {
 	GENERATED_BODY()

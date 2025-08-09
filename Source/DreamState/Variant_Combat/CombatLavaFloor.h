@@ -12,7 +12,7 @@ class UPrimitiveComponent;
 /**
  *  A basic actor that applies damage on contact through the ICombatDamageable interface. 
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "36F1CB73-4A23E5DA-AE5B16BF-284DB49D", FileName = "CombatLavaFloor.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatLavaFloor.h" ))
 class ACombatLavaFloor : public AActor
 {
 	GENERATED_BODY()

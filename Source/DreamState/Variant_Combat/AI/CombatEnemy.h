@@ -27,7 +27,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnEnemyDied);
  *  An AI-controlled character with combat capabilities.
  *  Its bundled AI Controller runs logic through StateTree
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "440B2CCF-404C8D25-DA8F0DA1-C24A75CC", FileName = "CombatEnemy.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AI/CombatEnemy.h" ))
 class ACombatEnemy : public ACharacter, public ICombatAttacker, public ICombatDamageable
 {
 	GENERATED_BODY()

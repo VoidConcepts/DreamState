@@ -9,7 +9,7 @@
 /**
  *  AnimNotify to tell the actor to perform an attack trace check to look for targets to damage.
  */
-UCLASS()
+UCLASS(meta = (GUID = "B28D1916-4C871E79-DB51A286-DE021A1D", FileName = "AnimNotify_DoAttackTrace.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AnimNotify_DoAttackTrace.h" ))
 class UAnimNotify_DoAttackTrace : public UAnimNotify
 {
 	GENERATED_BODY()

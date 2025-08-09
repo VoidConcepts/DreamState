@@ -32,7 +32,7 @@ public:
 //=================================================================================================
 
 /** A template for a shared Data Asset. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "5A702F6E-46926891-140FFC98-287526D5", FileName = "GameAudioModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/GameAudioModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UGameAudioModuleDataAsset : public UDataAsset
 {
 	GENERATED_BODY()
@@ -47,7 +47,7 @@ public:
 //=================================================================================================
 
 /** A template for a top-level, load-on-demand archetype. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "5A702F6E-46926891-140FFC98-287526D5", FileName = "GameAudioModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/GameAudioModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UGameAudioModulePrimaryDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()

@@ -11,7 +11,7 @@
  *  Simple moving platform that can be triggered through interactions by other actors.
  *  The actual movement is performed by Blueprint code through latent execution nodes.
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "1D52EC0A-4AA0AFA4-EBD2808A-BD9951F9", FileName = "SideScrollingMovingPlatform.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h" ))
 class ASideScrollingMovingPlatform : public AActor, public ISideScrollingInteractable
 {
 	GENERATED_BODY()

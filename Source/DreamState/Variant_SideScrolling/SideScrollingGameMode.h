@@ -13,7 +13,7 @@ class USideScrollingUI;
  *  Spawns and manages the game UI
  *  Counts pickups collected by the player
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "CF354B67-4B689495-81011995-5EFCACDA", FileName = "SideScrollingGameMode.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/SideScrollingGameMode.h" ))
 class ASideScrollingGameMode : public AGameModeBase
 {
 	GENERATED_BODY()

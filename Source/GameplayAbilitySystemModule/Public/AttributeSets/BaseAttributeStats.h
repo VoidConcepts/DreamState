@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -11,7 +11,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(meta = (GUID = "0B275635-4EACF7CD-100304AB-59611632", FileName = "BaseAttributeStats.h", AbsoluePath = "D:/DreamState/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributeStats.h" ))
 class GAMEPLAYABILITYSYSTEMMODULE_API UBaseAttributeStats : public UAttributeSet
 {
 	GENERATED_BODY()

@@ -11,7 +11,7 @@ class UStateTreeAIComponent;
 /**
  *  A basic AI Controller capable of running StateTree
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "7FD80F74-4976EE94-D1918ABF-7CEFBC92", FileName = "SideScrollingAIController.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/AI/SideScrollingAIController.h" ))
 class ASideScrollingAIController : public AAIController
 {
 	GENERATED_BODY()

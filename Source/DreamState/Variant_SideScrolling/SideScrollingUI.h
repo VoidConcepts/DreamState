@@ -10,7 +10,7 @@
  *  Simple Side Scrolling game UI
  *  Displays and manages a pickup counter
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "9FA5DC74-4B2AD321-0F4820B4-51DD7C6E", FileName = "SideScrollingUI.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/SideScrollingUI.h" ))
 class USideScrollingUI : public UUserWidget
 {
 	GENERATED_BODY()

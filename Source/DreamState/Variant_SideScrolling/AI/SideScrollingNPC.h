@@ -12,7 +12,7 @@
  *  Its behaviors will be dictated by a possessing AI Controller
  *  It can be temporarily deactivated through Actor interactions
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "8370BF92-4518E1AB-76AE2E87-9D3AF730", FileName = "SideScrollingNPC.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/AI/SideScrollingNPC.h" ))
 class ASideScrollingNPC : public ACharacter, public ISideScrollingInteractable
 {
 	GENERATED_BODY()

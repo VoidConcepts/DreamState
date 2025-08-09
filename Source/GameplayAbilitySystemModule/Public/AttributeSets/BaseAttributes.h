@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -15,7 +15,7 @@
  *
  * Defined are the Attributes, Basic Accessors provided by Epic in a Macro, and their replication formulas.
  */
-UCLASS()
+UCLASS(meta = (GUID = "AD6BD1AF-4D414F88-427154B8-911699C6", FileName = "BaseAttributes.h", AbsoluePath = "D:/DreamState/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributes.h" ))
 class GAMEPLAYABILITYSYSTEMMODULE_API UBaseAttributes : public UAttributeSet
 {
 	GENERATED_BODY()

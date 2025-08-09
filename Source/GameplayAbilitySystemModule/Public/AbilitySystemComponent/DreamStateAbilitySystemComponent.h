@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -8,7 +8,7 @@
 #include "DreamStateAbilitySystemComponent.generated.h"
 
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
+UCLASS(meta = (GUID = "7C11D46B-48CF747E-37E515B1-C525DBD0", FileName = "DreamStateAbilitySystemComponent.h", AbsoluePath = "D:/DreamState/Source/GameplayAbilitySystemModule/Public/AbilitySystemComponent/DreamStateAbilitySystemComponent.h" ))
 class GAMEPLAYABILITYSYSTEMMODULE_API UDreamStateAbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()

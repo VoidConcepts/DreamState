@@ -32,7 +32,7 @@ public:
 //=================================================================================================
 
 /** A template for a shared Data Asset. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "DA86D3D2-441F33F0-C5900BB8-BD6A731D", FileName = "ActorCharactersModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UActorCharactersModuleDataAsset : public UDataAsset
 {
 	GENERATED_BODY()
@@ -47,7 +47,7 @@ public:
 //=================================================================================================
 
 /** A template for a top-level, load-on-demand archetype. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "DA86D3D2-441F33F0-C5900BB8-BD6A731D", FileName = "ActorCharactersModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UActorCharactersModulePrimaryDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()

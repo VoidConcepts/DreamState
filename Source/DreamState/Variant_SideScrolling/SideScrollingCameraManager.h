@@ -9,7 +9,7 @@
 /**
  *  Simple side scrolling camera with smooth scrolling and horizontal bounds
  */
-UCLASS()
+UCLASS(meta = (GUID = "DF78A008-45F830A5-62863F83-4E564106", FileName = "SideScrollingCameraManager.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/SideScrollingCameraManager.h" ))
 class ASideScrollingCameraManager : public APlayerCameraManager
 {
 	GENERATED_BODY()

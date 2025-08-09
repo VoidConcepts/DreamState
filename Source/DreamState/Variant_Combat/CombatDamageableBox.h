@@ -10,7 +10,7 @@
 /**
  *  A simple physics box that reacts to damage through the ICombatDamageable interface
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "7D0103EE-4D62EA7D-5DDC488D-1183F072", FileName = "CombatDamageableBox.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatDamageableBox.h" ))
 class ACombatDamageableBox : public AActor, public ICombatDamageable
 {
 	GENERATED_BODY()

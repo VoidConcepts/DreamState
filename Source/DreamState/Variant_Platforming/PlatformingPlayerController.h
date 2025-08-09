@@ -14,7 +14,7 @@ class APlatformingCharacter;
  *  Manages input mappings
  *  Respawns the player character at the Player Start when it's destroyed
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "E5E5B6B5-4F40AF62-9D032A97-9838CC9E", FileName = "PlatformingPlayerController.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Platforming/PlatformingPlayerController.h" ))
 class APlatformingPlayerController : public APlayerController
 {
 	GENERATED_BODY()

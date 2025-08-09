@@ -9,7 +9,7 @@
 /**
  *  Simple GameMode for a third person platforming game
  */
-UCLASS()
+UCLASS(meta = (GUID = "50FD2400-470AF437-F9FD6AAF-2A32DCE0", FileName = "PlatformingGameMode.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Platforming/PlatformingGameMode.h" ))
 class APlatformingGameMode : public AGameModeBase
 {
 	GENERATED_BODY()

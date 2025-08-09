@@ -13,7 +13,7 @@ struct FInputActionValue;
 /**
  *  A player-controllable character side scrolling game
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "8E0E6EC4-42E719D8-45FE31B6-2537F6CE", FileName = "SideScrollingCharacter.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/SideScrollingCharacter.h" ))
 class ASideScrollingCharacter : public ACharacter
 {
 	GENERATED_BODY()

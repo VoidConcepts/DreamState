@@ -26,7 +26,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogCombatCharacter, Log, All);
  *  - Death
  *  - Respawning
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "C4117DA6-4D3D35B2-14D6E3BD-B41D97C1", FileName = "CombatCharacter.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatCharacter.h" ))
 class ACombatCharacter : public ACharacter, public ICombatAttacker, public ICombatDamageable
 {
 	GENERATED_BODY()

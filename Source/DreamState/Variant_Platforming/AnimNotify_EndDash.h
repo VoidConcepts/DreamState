@@ -9,7 +9,7 @@
 /**
  *  AnimNotify to finish the dash animation and restore player control
  */
-UCLASS()
+UCLASS(meta = (GUID = "99E50F36-44AA8219-8AF6CF82-9D27013B", FileName = "AnimNotify_EndDash.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Platforming/AnimNotify_EndDash.h" ))
 class UAnimNotify_EndDash : public UAnimNotify
 {
 	GENERATED_BODY()

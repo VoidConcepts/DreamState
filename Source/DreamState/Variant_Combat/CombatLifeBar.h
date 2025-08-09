@@ -9,7 +9,7 @@
 /**
  *  A basic life bar user widget.
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "7E730A5E-4E9B3EBE-3B273F82-64554032", FileName = "CombatLifeBar.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatLifeBar.h" ))
 class UCombatLifeBar : public UUserWidget
 {
 	GENERATED_BODY()

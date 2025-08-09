@@ -12,7 +12,91 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ec07d-ecb9-49d6-8b89-2cfc4fa19586" name="Changes" comment="" />
+    <list default="true" id="331ec07d-ecb9-49d6-8b89-2cfc4fa19586" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/BP_MyTestClass.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/DreamState/Private/TestClass.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/DreamState/Public/TestClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DreamState/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Source/EditorSystemsModule/MyProjectAssetEnforcer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Source/EditorSystemsModule/MyProjectAssetEnforcer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamState.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/DreamState.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ActorCharactersModule/Public/ActorCharactersModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ActorCharactersModule/Public/ActorCharactersModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AnimationModule/Public/AnimationModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AnimationModule/Public/AnimationModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CharacterAIModule/Public/CharacterAIModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CharacterAIModule/Public/CharacterAIModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Public/DreamStateModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Public/DreamStateModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Public/GameInstance/DreamStateGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Public/GameInstance/DreamStateGameInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatAIController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatAIController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatEnemy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatEnemy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatEnemySpawner.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/CombatEnemySpawner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/EnvQueryContext_Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AI/EnvQueryContext_Player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_CheckChargedAttack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_CheckChargedAttack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_CheckCombo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_CheckCombo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_DoAttackTrace.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/AnimNotify_DoAttackTrace.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatActivationVolume.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatActivationVolume.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatCheckpointVolume.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatCheckpointVolume.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatDamageableBox.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatDamageableBox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatDummy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatDummy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatLavaFloor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatLavaFloor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatLifeBar.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatLifeBar.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Combat/CombatPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/AnimNotify_EndDash.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/AnimNotify_EndDash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_Platforming/PlatformingPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/AI/SideScrollingAIController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/AI/SideScrollingAIController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/AI/SideScrollingNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/AI/SideScrollingNPC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingPickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingPickup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingCameraManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingCameraManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DreamState/Variant_SideScrolling/SideScrollingUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EditorSystemsModule/Private/ProjectAssetEnforcer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Private/ProjectAssetEnforcer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/EditorSystemsModule/Public/ProjectAssetEnforcer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/EditorSystemsModule/Public/ProjectAssetEnforcer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameAudioModule/Public/AudioModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameAudioModule/Public/AudioModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/AnimationModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/AnimationModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/CharacterAIModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/CharacterAIModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameAudioModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameAudioModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameNetworkModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameNetworkModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameStateDataModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameStateDataModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GamemodeManagerModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GamemodeManagerModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameplayAbilitySystemModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameplayAbilitySystemModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/HeadsUpDisplayModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/HeadsUpDisplayModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/VFXModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/VFXModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/WorldManagerModuleDefinitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/WorldManagerModuleDefinitions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/DreamStateDataAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/DreamStateDataAsset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/DreamStatePrimaryDataAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/DreamStatePrimaryDataAsset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/GameDataAssetModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameDataAssetModule/Public/GameDataAssetModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameFrameworkModule/Public/GameFrameworkModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameFrameworkModule/Public/GameFrameworkModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameNetworkModule/Public/GameNetworkModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameNetworkModule/Public/GameNetworkModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameStateDataModule/Private/PlayerState/DreamStatePlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameStateDataModule/Private/PlayerState/DreamStatePlayerState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameStateDataModule/Public/GameState/DreamStateGameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameStateDataModule/Public/GameState/DreamStateGameState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameStateDataModule/Public/GameStateDataModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameStateDataModule/Public/GameStateDataModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameStateDataModule/Public/PlayerState/DreamStatePlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameStateDataModule/Public/PlayerState/DreamStatePlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GamemodeManagerModule/Public/GamemodeManagerModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GamemodeManagerModule/Public/GamemodeManagerModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AbilitySystemComponent/DreamStateAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AbilitySystemComponent/DreamStateAbilitySystemComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributeStats.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributeStats.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/ClassAbilities/ActiveAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/ClassAbilities/ActiveAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/ClassAbilities/PassiveAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/ClassAbilities/PassiveAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GamePlayAbilitySystemModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GamePlayAbilitySystemModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Buffs/ClassBuff.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Buffs/ClassBuff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Debuffs/ClassDebuff.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Debuffs/ClassDebuff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Traits/ClassTrait.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/ClassSpecificEffects/Traits/ClassTrait.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/EffectComponents/DamageComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/EffectComponents/DamageComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/Boon.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/Boon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/Condition.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/Condition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/CrowdControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/CrowdControl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/DamagingCondition.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GameplayAbilitySystemModule/Public/GameplayEffects/UniversalEffects/DamagingCondition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/HeadsUpDisplayModule/Public/HeadsUpDisplayModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/HeadsUpDisplayModule/Public/HeadsUpDisplayModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/VFXModule/Public/VFXModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/VFXModule/Public/VFXModuleBlueprintFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/WorldManagerModule/Public/WorldManagerModuleBlueprintFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/WorldManagerModule/Public/WorldManagerModuleBlueprintFunctionLibrary.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +106,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../UnrealEngine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -37,24 +121,13 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/ActorCharactersModule/ActorCharactersModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/ActorCharactersModule/ActorCharactersModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/ActorCharactersModule/Private/ActorCharactersModule.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/ActorCharactersModule/Public/ActorCharactersModule.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/AnimationModule/Public/AnimationModule.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/DreamState/Variant_Combat/AnimNotify_CheckCombo.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/DreamState/Variant_Platforming/PlatformingPlayerController.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/EditorSystemsModule.Build.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Private/EditorSystemsModule.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Public/EditorSystemsModule.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/EditorSystemsModule/Public/EditorSystemsModule.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/DreamState/Source/AnimationModule/Public/AnimationModuleBlueprintFunctionLibrary.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/DreamState/Private/TestClass.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/DreamState/Public/TestClass.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Private/Definitions/ActorCharactersModuleDefinitions.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameDataAssetModule/Public/Definitions/ActorCharactersModuleDefinitions.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/AnimationModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/CharacterAIModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/GameAudioModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
@@ -65,15 +138,6 @@
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/HeadsUpDisplayModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/VFXModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GameDataAssetModule/Public/Definitions/WorldManagerModuleDefinitions.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameDataAssetModule/Public/DreamStateDataAsset.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameFrameworkModule/Public/ModuleInterfaces/ActorCharactersModuleInterface.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameFrameworkModule/Public/ModuleInterfaces/GameplayAbilitySystemModuleInterface.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameStateDataModule/Private/PlayerState/DreamStatePlayerState.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameStateDataModule/Public/PlayerState/DreamStatePlayerState.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameplayAbilitySystemModule/Private/AbilitySystemComponent/DreamStateAbilitySystemComponent.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameplayAbilitySystemModule/Private/AttributeSets/BaseAttributeStats.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameplayAbilitySystemModule/Public/AbilitySystemComponent/DreamStateAbilitySystemComponent.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/DreamState/Source/GameplayAbilitySystemModule/Public/AttributeSets/BaseAttributes.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ModHeadsUpDisplay/ModHeadsUpDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ModHeadsUpDisplay/Private/ModHeadsUpDisplay.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UnrealEngine/Engine/Intermediate/Build/Win64/UnrealEditor/Inc/Blutility/UHT/EditorUtilityBlueprint.generated.h" root0="SKIP_HIGHLIGHTING" />
@@ -104,7 +168,7 @@
     "C/C++ Project.DreamState.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "release",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -2415,6 +2479,8 @@
       <workItem from="1754075478717" duration="8468000" />
       <workItem from="1754207491856" duration="33188000" />
       <workItem from="1754315898015" duration="31698000" />
+      <workItem from="1754688545787" duration="3359000" />
+      <workItem from="1754712639022" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Establishing base build and project structure. Added foundational modules for core areas of game development.">
       <option name="closed" value="true" />

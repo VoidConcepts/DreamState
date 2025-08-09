@@ -1,4 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -15,7 +15,7 @@ class UAbilitySystemComponent;
 /**
  * 
  */
-UCLASS()
+UCLASS(meta = (GUID = "A1CFB0F0-4687FC45-37A1CBAE-6155BDE7", FileName = "DreamStatePlayerState.h", AbsoluePath = "D:/DreamState/Source/GameStateDataModule/Public/PlayerState/DreamStatePlayerState.h" ))
 class GAMESTATEDATAMODULE_API ADreamStatePlayerState : public APlayerState
 {
 	GENERATED_BODY()
@@ -27,6 +27,8 @@ class GAMESTATEDATAMODULE_API ADreamStatePlayerState : public APlayerState
 	IGameStateDataModuleInterface* GameStateDataModuleInterfacePtr;
 	
 	virtual void PostInitializeComponents() override;
+
+	virtual void GetAssetRegistryTags(FAssetRegistryTagsContext Context) const override;
 	
 	
 };

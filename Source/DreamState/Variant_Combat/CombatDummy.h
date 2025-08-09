@@ -13,7 +13,7 @@ class UPhysicsConstraintComponent;
 /**
  *  A simple invincible combat training dummy
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "78DE4ACE-4274F636-DFACCFB9-C27914EB", FileName = "CombatDummy.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatDummy.h" ))
 class ACombatDummy : public AActor, public ICombatDamageable
 {
 	GENERATED_BODY()

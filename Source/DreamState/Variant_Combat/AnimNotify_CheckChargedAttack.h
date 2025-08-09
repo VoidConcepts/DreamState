@@ -9,7 +9,7 @@
 /**
  *  AnimNotify to perform a charged attack hold check.
  */
-UCLASS()
+UCLASS(meta = (GUID = "F232BF12-4D2CEBF8-E4BFAB82-235A0315", FileName = "AnimNotify_CheckChargedAttack.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AnimNotify_CheckChargedAttack.h" ))
 class UAnimNotify_CheckChargedAttack : public UAnimNotify
 {
 	GENERATED_BODY()

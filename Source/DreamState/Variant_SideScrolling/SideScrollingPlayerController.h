@@ -15,7 +15,7 @@ class UInputMappingContext;
  *  Manages input mappings
  *  Respawns the player pawn at the player start if it is destroyed
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "4EB8B5ED-446228C9-0581BDA7-3B7CDC21", FileName = "SideScrollingPlayerController.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/SideScrollingPlayerController.h" ))
 class ASideScrollingPlayerController : public APlayerController
 {
 	GENERATED_BODY()

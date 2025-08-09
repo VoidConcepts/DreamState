@@ -32,7 +32,7 @@ public:
 //=================================================================================================
 
 /** A template for a shared Data Asset. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "37A31600-4F657000-D5CB56BF-CDE03CA1", FileName = "AnimationModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/AnimationModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UAnimationModuleDataAsset : public UDataAsset
 {
 	GENERATED_BODY()
@@ -47,7 +47,7 @@ public:
 //=================================================================================================
 
 /** A template for a top-level, load-on-demand archetype. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "37A31600-4F657000-D5CB56BF-CDE03CA1", FileName = "AnimationModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/AnimationModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UAnimationModulePrimaryDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()

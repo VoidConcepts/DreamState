@@ -1,216 +1,218 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "{155E2E9A-43A2-D404-F552-E289503A68A3}",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "DreamState",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"AIModule",
-				"UMG",
-				"GameplayAbilities"
-			]
-		},
-		{
-			"Name": "GameFrameworkModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PreDefault"
-		},
-		{
-			"Name": "VFXModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GameAudioModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "AnimationModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "ActorCharactersModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GameplayAbilitySystemModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GameStateDataModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "HeadsUpDisplayModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GamemodeManagerModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "WorldManagerModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GameNetworkModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "EditorSystemsModule",
-			"Type": "Editor",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "CharacterAIModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		},
-		{
-			"Name": "GameDataAssetModule",
-			"Type": "Runtime",
-			"LoadingPhase": "PostDefault"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "StateTree",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayStateTree",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayAbilities",
-			"Enabled": true
-		},
-		{
-			"Name": "BlueprintFileUtils",
-			"Enabled": true
-		},
-		{
-			"Name": "PythonFoundationPackages",
-			"Enabled": true
-		},
-		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
-			]
-		},
-		{
-			"Name": "AndroidPermission",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidFileServer",
-			"Enabled": false
-		},
-		{
-			"Name": "GooglePAD",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidDeviceProfileSelector",
-			"Enabled": false
-		},
-		{
-			"Name": "ArchVisCharacter",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidMedia",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidMoviePlayer",
-			"Enabled": false
-		},
-		{
-			"Name": "AppleMoviePlayer",
-			"Enabled": false
-		},
-		{
-			"Name": "MobileLauncherProfileWizard",
-			"Enabled": false
-		},
-		{
-			"Name": "LocationServicesBPLibrary",
-			"Enabled": false
-		},
-		{
-			"Name": "MobilePatchingUtils",
-			"Enabled": false
-		},
-		{
-			"Name": "GoogleCloudMessaging",
-			"Enabled": false
-		},
-		{
-			"Name": "OnlineSubsystemIOS",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"IOS",
-				"TVOS"
-			]
-		},
-		{
-			"Name": "N10XSourceCodeAccess",
-			"Enabled": false
-		},
-		{
-			"Name": "CLionSourceCodeAccess",
-			"Enabled": false
-		},
-		{
-			"Name": "CodeLiteSourceCodeAccess",
-			"Enabled": false
-		},
-		{
-			"Name": "KDevelopSourceCodeAccess",
-			"Enabled": false
-		},
-		{
-			"Name": "XCodeSourceCodeAccess",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Mac"
-			]
-		},
-		{
-			"Name": "SubversionSourceControl",
-			"Enabled": false
-		},
-		{
-			"Name": "PlasticSourceControl",
-			"Enabled": false
-		},
-		{
-			"Name": "Paper2D",
-			"Enabled": false
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "{155E2E9A-43A2-D404-F552-E289503A68A3}",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "DreamState",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "GameFrameworkModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "VFXModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GameAudioModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "AnimationModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "ActorCharactersModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GameplayAbilitySystemModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GameStateDataModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "HeadsUpDisplayModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GamemodeManagerModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "WorldManagerModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GameNetworkModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "EditorSystemsModule",
+      "Type": "Editor",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "CharacterAIModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    },
+    {
+      "Name": "GameDataAssetModule",
+      "Type": "Runtime",
+      "LoadingPhase": "PostDefault"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true
+    },
+    {
+      "Name": "StateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true
+    },
+    {
+      "Name": "BlueprintFileUtils",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonFoundationPackages",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemGooglePlay",
+      "Enabled": false,
+      "SupportedTargetPlatforms": [
+        "Android"
+      ]
+    },
+    {
+      "Name": "AndroidPermission",
+      "Enabled": false
+    },
+    {
+      "Name": "AndroidFileServer",
+      "Enabled": false
+    },
+    {
+      "Name": "GooglePAD",
+      "Enabled": false
+    },
+    {
+      "Name": "AndroidDeviceProfileSelector",
+      "Enabled": false
+    },
+    {
+      "Name": "ArchVisCharacter",
+      "Enabled": false
+    },
+    {
+      "Name": "AndroidMedia",
+      "Enabled": false
+    },
+    {
+      "Name": "AndroidMoviePlayer",
+      "Enabled": false
+    },
+    {
+      "Name": "AppleMoviePlayer",
+      "Enabled": false
+    },
+    {
+      "Name": "MobileLauncherProfileWizard",
+      "Enabled": false
+    },
+    {
+      "Name": "LocationServicesBPLibrary",
+      "Enabled": false
+    },
+    {
+      "Name": "MobilePatchingUtils",
+      "Enabled": false
+    },
+    {
+      "Name": "GoogleCloudMessaging",
+      "Enabled": false
+    },
+    {
+      "Name": "OnlineSubsystemIOS",
+      "Enabled": false,
+      "SupportedTargetPlatforms": [
+        "IOS",
+        "TVOS"
+      ]
+    },
+    {
+      "Name": "N10XSourceCodeAccess",
+      "Enabled": false
+    },
+    {
+      "Name": "CLionSourceCodeAccess",
+      "Enabled": false
+    },
+    {
+      "Name": "CodeLiteSourceCodeAccess",
+      "Enabled": false
+    },
+    {
+      "Name": "KDevelopSourceCodeAccess",
+      "Enabled": false
+    },
+    {
+      "Name": "XCodeSourceCodeAccess",
+      "Enabled": false,
+      "SupportedTargetPlatforms": [
+        "Mac"
+      ]
+    },
+    {
+      "Name": "SubversionSourceControl",
+      "Enabled": false
+    },
+    {
+      "Name": "PlasticSourceControl",
+      "Enabled": false
+    },
+    {
+      "Name": "Paper2D",
+      "Enabled": false
+    },
+    {
+      "Name": "VisualStudioTools",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Win64"
+      ]
+    }
+  ],
+  "TargetPlatforms": [],
+  "AdditionalRootDirectories": [],
+  "AdditionalPluginDirectories": [],
+  "EpicSampleNameHash": ""
 }

@@ -14,7 +14,7 @@ class ACombatCharacter;
  *  Manages input mappings
  *  Respawns the player character at the checkpoint when it's destroyed
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "20AB7909-4C9CB2D0-F9C75F93-1676C14D", FileName = "CombatPlayerController.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatPlayerController.h" ))
 class ACombatPlayerController : public APlayerController
 {
 	GENERATED_BODY()

@@ -13,7 +13,7 @@ class UBoxComponent;
 /**
  *  A side scrolling game platform that the character can jump or drop through.
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "1E25CBF4-4489C681-73A8669F-33C0DE2A", FileName = "SideScrollingSoftPlatform.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h" ))
 class ASideScrollingSoftPlatform : public AActor
 {
 	GENERATED_BODY()

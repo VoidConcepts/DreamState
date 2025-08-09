@@ -11,7 +11,7 @@ class UStateTreeAIComponent;
 /**
  *	A basic AI Controller capable of running StateTree
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "9B5E7599-4A1E0AD3-8F9D7C96-C3542E62", FileName = "CombatAIController.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AI/CombatAIController.h" ))
 class ACombatAIController : public AAIController
 {
 	GENERATED_BODY()

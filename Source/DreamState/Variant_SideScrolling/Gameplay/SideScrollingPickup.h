@@ -12,7 +12,7 @@ class USphereComponent;
  *  A simple side scrolling game pickup
  *  Increments a counter on the GameMode
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "383E0CA7-40DF5531-120CFABD-5361F3F9", FileName = "SideScrollingPickup.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_SideScrolling/Gameplay/SideScrollingPickup.h" ))
 class ASideScrollingPickup : public AActor
 {
 	GENERATED_BODY()

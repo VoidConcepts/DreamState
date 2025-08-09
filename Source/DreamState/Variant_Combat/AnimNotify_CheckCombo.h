@@ -9,7 +9,7 @@
 /**
  *  AnimNotify to perform a combo string check.
  */
-UCLASS()
+UCLASS(meta = (GUID = "B8F264AF-431CAC2E-556761A4-7CA940CB", FileName = "AnimNotify_CheckCombo.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AnimNotify_CheckCombo.h" ))
 class UAnimNotify_CheckCombo : public UAnimNotify
 {
 	GENERATED_BODY()

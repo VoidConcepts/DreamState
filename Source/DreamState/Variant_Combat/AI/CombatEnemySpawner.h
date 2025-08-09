@@ -17,7 +17,7 @@ class ACombatEnemy;
  *  The spawner can be remotely activated through the ICombatActivatable interface
  *  When the last spawned enemy dies, the spawner can also activate other ICombatActivatables
  */
-UCLASS(abstract)
+UCLASS(meta = (GUID = "1575E133-42F14348-0218B3A0-00D2ECD8", FileName = "CombatEnemySpawner.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/AI/CombatEnemySpawner.h" ))
 class ACombatEnemySpawner : public AActor, public ICombatActivatable
 {
 	GENERATED_BODY()

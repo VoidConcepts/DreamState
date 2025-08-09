@@ -11,7 +11,7 @@ class UBoxComponent;
 /**
  *  A simple volume that activates a list of actors when the player pawn enters.
  */
-UCLASS()
+UCLASS(meta = (GUID = "6C88A93A-4818DFCA-2BB0B3AB-13799139", FileName = "CombatActivationVolume.h", AbsoluePath = "D:/DreamState/Source/DreamState/Variant_Combat/CombatActivationVolume.h" ))
 class ACombatActivationVolume : public AActor
 {
 	GENERATED_BODY()

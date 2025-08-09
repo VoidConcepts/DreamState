@@ -32,7 +32,7 @@ public:
 //=================================================================================================
 
 /** A template for a shared Data Asset. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "27D3381E-4762E552-672B14BA-94C93D72", FileName = "HeadsUpDisplayModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/HeadsUpDisplayModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UHeadsUpDisplayModuleDataAsset : public UDataAsset
 {
 	GENERATED_BODY()
@@ -47,7 +47,7 @@ public:
 //=================================================================================================
 
 /** A template for a top-level, load-on-demand archetype. */
-UCLASS(BlueprintType)
+UCLASS(meta = (GUID = "27D3381E-4762E552-672B14BA-94C93D72", FileName = "HeadsUpDisplayModuleDefinitions.h", AbsoluePath = "D:/DreamState/Source/GameDataAssetModule/Public/Definitions/HeadsUpDisplayModuleDefinitions.h" ))
 class GAMEDATAASSETMODULE_API UHeadsUpDisplayModulePrimaryDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
